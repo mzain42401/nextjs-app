@@ -2,13 +2,18 @@ import { getSession } from 'next-auth/react'
 import React from 'react'
 
 const index = ({session}) => {
-  // const {user}=session
-  console.log(session.user.email);
+//   const {user}=session
+//   const {email}=user
+// console.log(email);
+  // console.log(session.user.email);
 
   return (
     <>
       profile,
-      <br />{session.user.email}
+      <br />
+      {/* {email}
+      {session.user.email} */}
+
     </>
   )
 }

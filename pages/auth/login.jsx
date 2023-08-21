@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import React, { useRef, useState } from 'react'
 import { signIn } from "next-auth/react"
 import {BsGithub,BsGoogle,BsFacebook} from 'react-icons/bs'
+import Link from 'next/link'
 const login = () => {
 
     const [error, setError] = useState('')
@@ -84,7 +85,8 @@ const login = () => {
                             <div>{error === 'wrong password' && <p className='text-red-500 text-xs mt-1'>{error}</p>}</div>
 
                         </div>
-
+                        <Link href='/auth/signup'>
+<p className='text-[15px] text-indigo-600 mt-5 font-bold hover:text-indigo-400'>Don't have an account? signup </p></Link>
                         <div className='flex justify-center'>
                             <button
                                 type="submit"

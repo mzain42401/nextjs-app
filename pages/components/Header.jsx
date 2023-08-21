@@ -10,7 +10,6 @@ const Header = () => {
                 <div>Personal Blogging App</div>
                 <ul className='flex justify-center items-center'>
 
-                    <li className='mx-6'><Link href='/auth/signup'>signUp</Link></li>
                     <li className='mx-6'><Link href='/auth/login'>Login</Link></li>
                     <li className='mx-6' ><Link href='/profile' >profile</Link> </li>
                     <li className='mx-6' ><Link href='/dashboard' >Dashboard</Link> </li>
