@@ -29,7 +29,7 @@ const user= checkByEmail(email)
 if (user) {
     throw new Error ("user already exist")
 }
-data.push({firstName,lastName,email,password:hashpassword})
+data.push({firstName,lastName,email,password:hashpassword,blogs: []})
 fs.writeFileSync(authDataPath,JSON.stringify(data))
    
 }

@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React, { useRef, useState } from 'react'
 
 const signup = () => {
-const router=useRouter()
+    const router = useRouter()
     const [firstNameError, setfirstNameError] = useState('')
     const [lastNameError, setlastNameError] = useState('')
     const [emailError, setemailError] = useState('')
@@ -40,22 +40,22 @@ const router=useRouter()
             return setrepeatpasswordError("must be same")
         }
 
-       const res= await fetch('/api/authapi/signup',{
-            method:"POST",
-            body:JSON.stringify({firstName,lastName,email,password}),
-            headers:{
-                "Content-Type":"application/json"
+        const res = await fetch('/api/authapi/signup', {
+            method: "POST",
+            body: JSON.stringify({ firstName, lastName, email, password }),
+            headers: {
+                "Content-Type": "application/json"
             }
         })
         // const data= await res.json()
         if (res.ok) {
-           
+
             alert("signup successful")
             router.push('/auth/login')
         }
-        else{
- const data=await res.json()
- setemailError(data.error)
+        else {
+            const data = await res.json()
+            setemailError(data.error)
         }
 
 
@@ -120,7 +120,7 @@ const router=useRouter()
                                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset px-2 focus:ring-indigo-600 focus-visible:outline-indigo-600  sm:text-sm sm:leading-6"
                                 />
                             </div>
-                            <div>{emailError&& <p className='text-red-500 text-xs mt-1'>{emailError}</p>}</div>
+                            <div>{emailError && <p className='text-red-500 text-xs mt-1'>{emailError}</p>}</div>
                         </div>
 
                         <div>

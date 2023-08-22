@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import React, { useRef, useState } from 'react'
 import { signIn } from "next-auth/react"
-import {BsGithub,BsGoogle,BsFacebook} from 'react-icons/bs'
+import { BsGithub, BsGoogle, BsFacebook } from 'react-icons/bs'
 import Link from 'next/link'
 const login = () => {
 
@@ -86,7 +86,7 @@ const login = () => {
 
                         </div>
                         <Link href='/auth/signup'>
-<p className='text-[15px] text-indigo-600 mt-5 font-bold hover:text-indigo-400'>Don't have an account? signup </p></Link>
+                            <p className='text-[15px] text-indigo-600 mt-5 font-bold hover:text-indigo-400'>Don't have an account? signup </p></Link>
                         <div className='flex justify-center'>
                             <button
                                 type="submit"
@@ -105,33 +105,33 @@ const login = () => {
                 </div>
 
 
-                <div className='flex justify-center mt-6 sm:mx-auto sm:w-full sm:max-w-sm'>
+                {/* <div className='flex justify-center mt-6 sm:mx-auto sm:w-full sm:max-w-sm'>
                     <button
-                        
+
 
                         className="flex w-full  justify-center items-center rounded-md border-2 border-indigo-600 text-indigo-600 hover:text-white px-3 py-1.5 text-sm font-semibold leading-6  shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 "
                     >
-                      <span className='mr-[12px] text-[22px]/[29px]'><BsFacebook/></span>  FACEBOOK
+                        <span className='mr-[12px] text-[22px]/[29px]'><BsFacebook /></span>  FACEBOOK
                     </button>
                 </div> <div className='flex justify-center mt-4 sm:mx-auto sm:w-full sm:max-w-sm'>
                     <button
-                        
-                        
+
+
 
                         className="flex w-full  justify-center items-center rounded-md  px-3 py-1.5 text-sm font-semibold leading-6  border-2 border-indigo-600 text-indigo-600 hover:text-white shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 "
                     >
-                      <span className='mr-[24px] text-[22px]/[29px]'><BsGithub/></span>  GITHUB
+                        <span className='mr-[24px] text-[22px]/[29px]'><BsGithub /></span>  GITHUB
                     </button>
                 </div> <div className='flex justify-center mt-4 sm:mx-auto sm:w-full sm:max-w-sm'>
                     <button
-                        
-                        
+
+
 
                         className="flex w-full  justify-center items-center rounded-md  px-3 py-1.5 text-sm font-semibold leading-6  border-2 border-indigo-600 text-indigo-600 hover:text-white shadow-sm hover:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700 "
                     >
-                      <span className='mr-[22px] text-xl'><BsGoogle/></span>  GOOGLE
+                        <span className='mr-[22px] text-xl'><BsGoogle /></span>  GOOGLE
                     </button>
-                </div>
+                </div> */}
 
             </div>
 
