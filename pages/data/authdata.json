@@ -3,38 +3,23 @@
         "firstName": "zain",
         "lastName": "ali",
         "email": "za522686@gmail.com",
-        "password": "$2b$12$QVtwhe3NclSvj2vlarsUx.03g1brprL1.GHcQNqkRjtrnYdhc9k8m",
+        "password": "$2b$12$NcJrhCp3wiIysB0CwdLNWeT86EwIDoOiTNonLD4XarNN/yTrnh4L2",
         "blogs": [
             {
-                "blogTittle": "a",
-                "blogDiscription": "s"
+                "blogTittle": "qqqqqqqqqqqqqqqqqqqqqqqqqqq",
+                "blogDiscription": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+                "date": 25,
+                "day": "FRI",
+                "month": 7,
+                "year": 2023
             },
             {
-                "blogTittle": "a",
-                "blogDiscription": "s",
-                "date": "24 7 2023"
-            },
-            {
-                "blogTittle": "q",
-                "blogDiscription": "q",
-                "date": "24 7 2023"
-            }
-        ]
-    },
-    {
-        "firstName": "ajdjhdj",
-        "lastName": "kjkjkjkjhkj",
-        "email": "ay6229594@gmail.com",
-        "password": "$2b$12$c9wEi2UurFMxuBFyst54H.cLTfbHh.m43auXn1ky7YYR7MAwYTdWy",
-        "blogs": [
-            {
-                "blogTittle": "kjhdkjhkj",
-                "blogDiscription": "kjkljlkj"
-            },
-            {
-                "blogTittle": "q",
-                "blogDiscription": "q",
-                "date": "24 7 2023"
+                "blogTittle": "ssssssssssssssssssssssssssssssssssssssss",
+                "blogDiscription": "qqqqqqqqqqqqqqqqqjkllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
+                "date": 25,
+                "day": "FRI",
+                "month": 8,
+                "year": 2023
             }
         ]
     }

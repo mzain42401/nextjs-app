@@ -7,10 +7,10 @@ export default function handler(req,res){
             
         }
 
-        const {blogTittle,blogDiscription,email,date}=req.body;
+        const {blogTittle,blogDiscription,email,date,day,month,year}=req.body;
 
 
-        postBlog(blogTittle,blogDiscription,email,date)
+        postBlog(blogTittle,blogDiscription,email,date,day,month,year)
 }
 
 

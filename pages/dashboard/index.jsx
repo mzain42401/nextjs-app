@@ -1,29 +1,63 @@
 import { getSession } from 'next-auth/react'
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import { checkByEmail } from '../api/services/user'
 
 const index = ({ userData }) => {
+  const [blogtitleError,setBlogtitleError]=useState()
+  const [blogDiscriptionError,setBlogDiscriptionError]=useState()
+
+
+
   const blogTittleRef = useRef()
   const blogDiscriptionRef = useRef()
   const email = userData.email
-  const myDate=()=>{
-    const fulldate=new Date()
-    const date=fulldate.getDate()
-    const month=fulldate.getMonth()
-    const year=fulldate.getFullYear()
-return (`${date} ${month} ${year}`)
+  const myDate = () => {
+    const fulldate = new Date()
+    const date = fulldate.getDate()
+
+    return date
+  }
+  const myDay = () => {
+    const fulldate = new Date()
+    const dayInNum = fulldate.getDay()
+    const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+    const day = days[dayInNum]
+    return day
+  }
+  const myMont = () => {
+    const fulldate = new Date()
+    const month = fulldate.getMonth()
+    return month +1
+  }
+  const myYear = () => {
+    const fulldate = new Date()
+    const year = fulldate.getFullYear()
+    return year
   }
 
-  const date=myDate()
+
+  const day = myDay()
+  const date = myDate()
+  const month = myMont()
+  const year = myYear()
+
+
 
   const publisfBlog = (e) => {
     e.preventDefault()
-    const blogTittle=blogTittleRef.current.value
-    const blogDiscription=blogDiscriptionRef.current.value
-    
+
+    const blogTittle = blogTittleRef.current.value
+    const blogDiscription = blogDiscriptionRef.current.value
+    if (blogTittle.length<10 || blogTittle.length>70) {
+     return setBlogtitleError('Tittle must have minimum 10 and maximum 70 characters.  ')
+    }
+    if (blogDiscription.length<50 || blogDiscription.length>600) {
+      return setBlogDiscriptionError('Discription must have minimum 50 and maximum 600 characters. ')
+     }
+
     fetch('/api/blogapi/postBlog', {
       method: "POST",
-      body: JSON.stringify({ blogTittle,blogDiscription,email ,date}),
+      body: JSON.stringify({ blogTittle, blogDiscription, email, date, day, month, year }),
       headers: {
         "Content-Type": "application/json"
       }
@@ -36,16 +70,18 @@ return (`${date} ${month} ${year}`)
         <form onSubmit={publisfBlog} >
           <div>
             <input required ref={blogTittleRef} className='w-full  rounded-md border-0 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset px-2 focus:ring-indigo-600 focus-visible:outline-indigo-600  ' type="text" placeholder='Enter your blog title' />
+            <div>{blogtitleError && <p className='text-red-500 text-xs mt-1'>{blogtitleError}</p>}</div>
           </div>
 
           <div>
             <textarea required ref={blogDiscriptionRef} className='w-full mt-6  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset px-2 focus:ring-indigo-600 focus-visible:outline-indigo-600  ' placeholder='Enter your blog discription' cols="10" rows="08"></textarea>
+            <div>{blogDiscriptionError && <p className='text-red-500 text-xs mt-1'>{blogDiscriptionError}</p>}</div>
           </div>
 
           <div className='flex justify-end'>
             <button
               type="submit"
-              
+
               className="  mt-6    rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  "
             >Publish blog
             </button>
