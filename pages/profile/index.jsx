@@ -1,5 +1,5 @@
 import { getSession, } from 'next-auth/react'
-import React from 'react'
+import React, { useRef } from 'react'
 import { checkByEmail } from '../api/services/user'
 
 const index = ({ session, userData }) => {
@@ -9,12 +9,13 @@ const index = ({ session, userData }) => {
   const { lastName } = userData
   const email=session.user.email
 
+  const oldPasswordRef=useRef()
+  const newPasswordRef=useRef()
+  const repeatNewPasswordRef=useRef()
 
-  console.log(firstName, lastName, session.user.email);
 
-  const set = () => {
-    alert("ZAI")
-  }
+
+
   return (
     <>
       {/* <br />
@@ -31,6 +32,7 @@ const index = ({ session, userData }) => {
             id="repeatpassword"
             name="repeatpassword"
             type="password"
+ref={oldPasswordRef}
             placeholder='Old password'
             required
             className="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset px-2 focus:ring-indigo-600 focus-visible:outline-indigo-600  sm:text-sm sm:leading-6"
@@ -42,6 +44,7 @@ const index = ({ session, userData }) => {
             name="repeatpassword"
             type="password"
             placeholder='New password'
+            ref={newPasswordRef}
             required
             className="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset px-2 focus:ring-indigo-600 focus-visible:outline-indigo-600  sm:text-sm sm:leading-6"
           />
@@ -52,6 +55,7 @@ const index = ({ session, userData }) => {
             name="repeatpassword"
             type="password"
             placeholder='Repeat New password'
+            ref={repeatNewPasswordRef}
             required
             className="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset px-2 focus:ring-indigo-600 focus-visible:outline-indigo-600  sm:text-sm sm:leading-6"
           />

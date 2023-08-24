@@ -33,3 +33,19 @@ data.push({firstName,lastName,email,password:hashpassword,blogs: []})
 fs.writeFileSync(authDataPath,JSON.stringify(data))
    
 }
+
+
+export const postBlog = (blogTittle,blogDiscription,email,date) => {
+  
+    const user=checkByEmail(email)
+    user.blogs.push({blogTittle,blogDiscription,date})
+    const data = allData()
+    const otheruser=data.filter((elemnet)=>{
+return elemnet.email!==email
+    })
+
+
+
+fs.writeFileSync(authDataPath,JSON.stringify([...otheruser,user]))
+   
+}
