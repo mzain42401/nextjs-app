@@ -4,7 +4,6 @@ import { checkByEmail } from '../api/services/user'
 
 const index = ({ session, userData }) => {
 
-
   const { firstName } = userData
   const { lastName } = userData
   const email=session.user.email

@@ -4,6 +4,7 @@ import { signIn } from "next-auth/react"
 import { BsGithub, BsGoogle, BsFacebook } from 'react-icons/bs'
 import Link from 'next/link'
 const login = () => {
+    
 
     const [error, setError] = useState('')
     const router = useRouter()

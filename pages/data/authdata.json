@@ -2,22 +2,23 @@
     {
         "firstName": "zain",
         "lastName": "ali",
-        "email": "za522686@gmail.com",
-        "password": "$2b$12$NcJrhCp3wiIysB0CwdLNWeT86EwIDoOiTNonLD4XarNN/yTrnh4L2",
+        "email": "mzain42401@gmail.com",
+        "password": "$2b$12$alX/NvodnLqpUE7Vd1qq/.x0O3iw8S65iJYWwfFr9P1RRMx.yv8li",
         "blogs": [
             {
-                "blogTittle": "qqqqqqqqqqqqqqqqqqqqqqqqqqq",
-                "blogDiscription": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
-                "date": 25,
-                "day": "FRI",
-                "month": 7,
+                "blogTittle": "ali2222222222222",
+                "blogDiscription": "aliaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "date": 26,
+                "day": "SAT",
+                "month": 8,
                 "year": 2023
             },
             {
-                "blogTittle": "ssssssssssssssssssssssssssssssssssssssss",
-                "blogDiscription": "qqqqqqqqqqqqqqqqqjkllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
-                "date": 25,
-                "day": "FRI",
+                "blogTittle": "ali2222222222222",
+                "blogDiscription": "aliaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "email": "mzain42401@gmail.com",
+                "date": 26,
+                "day": "SAT",
                 "month": 8,
                 "year": 2023
             }

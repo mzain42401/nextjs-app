@@ -38,7 +38,7 @@ fs.writeFileSync(authDataPath,JSON.stringify(data))
 export const postBlog = (blogTittle,blogDiscription,email,date,day,month,year) => {
   
     const user=checkByEmail(email)
-    user.blogs.push({blogTittle,blogDiscription,date,day,month,year})
+    user.blogs.push({blogTittle,blogDiscription,email,date,day,month,year})
     const data = allData()
     const otheruser=data.filter((elemnet)=>{
 return elemnet.email!==email
