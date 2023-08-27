@@ -15,10 +15,9 @@ try{
     res.status(200).send()
 
 }
-
-catch (e) {
-    console.log(e);
-    res.status(401).json({ error:"user already exist"})
+ 
+catch (error) {
+    res.status(400).json({ message: error.message });
   }
   
 

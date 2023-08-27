@@ -47,17 +47,17 @@ const signup = () => {
                 "Content-Type": "application/json"
             }
         })
-        // const data= await res.json()
+        const data = await res.json()
         if (res.ok) {
 
             alert("signup successful")
             router.push('/auth/login')
         }
+        
         else {
-            const data = await res.json()
-            setemailError(data.error)
-        }
-
+        setemailError(data.message)
+        
+    }
 
 
     }
