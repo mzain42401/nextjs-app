@@ -11,6 +11,8 @@ export default function handler(req,res){
 
 
         postBlog(blogTittle,blogDiscription,email,date,day,month,year)
+        res.status(200).send();
+
 }
 
 

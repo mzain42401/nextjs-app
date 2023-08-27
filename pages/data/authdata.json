@@ -1,27 +1,135 @@
 [
-    {
-        "firstName": "zain",
-        "lastName": "ali",
+  {
+    "firstName": "saad",
+    "lastName": "ali",
+    "email": "za522686@gmail.com",
+    "password": "$2b$12$dDnJsAFGVUe20KaFKMBQB.PxdbePlQx3kX0TxbAPCpZJD25YyKL4i",
+    "blogs": [
+      {
+        "blogTittle": "zain ali shkj asghj sjgjha hgjha gjas",
+        "blogDiscription": "zainms ah, asajks aggs dg sghjs kkj zbannjhasmnmnm,",
+        "email": "za522686@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "zain ali shkj asghj sjgjha hgjha gjas",
+        "blogDiscription": "zainms ah, asajks aggs dg sghjs kkj zbannjhasmnmnm,",
+        "email": "za522686@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "zain asjahjs gjhagshj asffasffhgas",
+        "blogDiscription": "zain alskjashja sdhahasgd asaadajh dasghaghdag asdagdhajgs",
+        "email": "za522686@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "firstName": "zain",
+    "lastName": "ali",
+    "email": "mzain42401@gmail.com",
+    "password": "$2b$12$Bug5AU8SNiUd7J4qFM6yKeigqHv4m5KlfvWtzyrWI7JXejPC1RjVW",
+    "blogs": [
+      {
+        "blogTittle": "i am hkjhasyk gjhastjasb",
+        "blogDiscription": "kjgjha jhgsj asga grra aijkijmdhnfejynjftfdjklndlklsns,. j  jflk kj jklljfukflad",
         "email": "mzain42401@gmail.com",
-        "password": "$2b$12$alX/NvodnLqpUE7Vd1qq/.x0O3iw8S65iJYWwfFr9P1RRMx.yv8li",
-        "blogs": [
-            {
-                "blogTittle": "ali2222222222222",
-                "blogDiscription": "aliaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                "date": 26,
-                "day": "SAT",
-                "month": 8,
-                "year": 2023
-            },
-            {
-                "blogTittle": "ali2222222222222",
-                "blogDiscription": "aliaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                "email": "mzain42401@gmail.com",
-                "date": 26,
-                "day": "SAT",
-                "month": 8,
-                "year": 2023
-            }
-        ]
-    }
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "zajkhjkhkjhjkhjkhkjhjhjkhknnnnnnnnnnnn",
+        "blogDiscription": "jhjkkhkjhjkhhbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbnnnnnnnnnnnnnn",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "blogDiscription": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "blogDiscription": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "blogDiscription": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "blogDiscription": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "blogDiscription": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+        "blogDiscription": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+        "blogDiscription": "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmaaaaaaaaaaaa",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      },
+      {
+        "blogTittle": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "blogDiscription": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "email": "mzain42401@gmail.com",
+        "date": 27,
+        "day": "SUN",
+        "month": 8,
+        "year": 2023
+      }
+    ]
+  }
 ]

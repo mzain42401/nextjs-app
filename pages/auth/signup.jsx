@@ -72,7 +72,7 @@ const signup = () => {
             <div className="flex min-h-full flex-1 flex-col justify-center  lg:px-8">
 
 
-                <div className="p-6 shadow-lg border border-gray-200  border-solid shadow-gray-400 rounded-xl  mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+                <div className="p-6 bg-white shadow-lg border border-gray-200  border-solid shadow-gray-400 rounded-xl  mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
 
                     <form className="space-y-6" onSubmit={onFormSubmit} >
                         <div>
